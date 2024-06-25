@@ -1,5 +1,21 @@
-@import "./../../Sass/variables";
+@import "./../../../Sass/Variables.scss";
 
+
+.portfolio-header {
+	margin-bottom: 100px;
+
+	@media (max-width: $maxSmallScreens) {
+		margin-bottom: 60px;
+	}
+
+	.portfolio-title {
+		@include section-title;
+	}
+
+	.portfolio-paragraph {
+		@include section-paragraph;
+	}
+}
 .about {
 	background-color: $background-color;
 	padding-top: 90px;
