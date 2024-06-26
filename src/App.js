@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { DarkThemeProvider } from "./CustomeHooks/useDarkTheme/useDarkTheme";
 
 // Import Components
-import Navbar from "./Components/Navbar/Index";
+import Navbar from "./Components/Navbar/Index.js";
 import Index from "./Components/Index/Index";
 import Services from "./Components/Services/Index";
 import Portfolio from "./Components/Portfolio/Index";
